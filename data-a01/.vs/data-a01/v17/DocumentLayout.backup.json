@@ -5,6 +5,15 @@
     {
       "AbsoluteMoniker": "D:0:0:{5393A8FF-75D0-4508-AE88-D84D30E88C58}|data-a01.vcxproj|C:\\Source\\DataStructures\\data-a01\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5393A8FF-75D0-4508-AE88-D84D30E88C58}|data-a01.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lospa\\Downloads\\LinkedList (1).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lospa\\Downloads\\LinkedListVersion0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lospa\\Downloads\\SortedList (1).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +23,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LinkedList (1).cpp",
+              "DocumentMoniker": "C:\\Users\\lospa\\Downloads\\LinkedList (1).cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\lospa\\Downloads\\LinkedList (1).cpp",
+              "ToolTip": "C:\\Users\\lospa\\Downloads\\LinkedList (1).cpp",
+              "RelativeToolTip": "..\\..\\..\\Users\\lospa\\Downloads\\LinkedList (1).cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-04T22:25:31.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LinkedListVersion0.cpp",
+              "DocumentMoniker": "C:\\Users\\lospa\\Downloads\\LinkedListVersion0.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\lospa\\Downloads\\LinkedListVersion0.cpp",
+              "ToolTip": "C:\\Users\\lospa\\Downloads\\LinkedListVersion0.cpp",
+              "RelativeToolTip": "..\\..\\..\\Users\\lospa\\Downloads\\LinkedListVersion0.cpp",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-04T22:18:17.22Z"
             },
             {
               "$type": "Document",
@@ -26,12 +55,24 @@
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Source\\DataStructures\\data-a01\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Source\\DataStructures\\data-a01\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "ToolTip": "C:\\Source\\DataStructures\\data-a01\\main.cpp*",
+              "RelativeToolTip": "main.cpp*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-04T21:41:22.953Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SortedList (1).cpp",
+              "DocumentMoniker": "C:\\Users\\lospa\\Downloads\\SortedList (1).cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\lospa\\Downloads\\SortedList (1).cpp",
+              "ToolTip": "C:\\Users\\lospa\\Downloads\\SortedList (1).cpp",
+              "RelativeToolTip": "..\\..\\..\\Users\\lospa\\Downloads\\SortedList (1).cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-04T22:17:56.192Z"
             }
           ]
         }
