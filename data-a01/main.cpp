@@ -28,13 +28,15 @@ struct book* addNewBook(int bookId, char title, char author, int publicationYear
         return newBook;
     }
 
-void findBook(book* head, char title) {
+void findBook(book* head) {
     printf("Please enter a book title or a partial book title to search for");
     char newText[100];
     fgets(newText, 100, stdin);
-    while (*head != NULL) {
-
+    while (head != NULL) {
+        for (int count = 0; count < strlen(*head->title); count++) {
+            strcmp(newText[count], head->title);
+        }
     }
-
+     
 
 }
