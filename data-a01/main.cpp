@@ -4,23 +4,25 @@
 typedef struct book {
     int bookId;
     char title;
-    char Author;
+    char author;
     int publicationYear;
-    struct book* NextStudent;
+    struct book* nextBook;
 };
-struct book* addNewBook(int bookId, int age) {
+struct book* addNewBook(int bookId, char title, char author, int publicationYear) 
+{
         struct book* newBook = (struct book*)malloc(sizeof(struct book));
     
         if (newBook == NULL)
         {
-            printf("No More Memory Space Found!!! Ran out of memory!!");
+            printf("No More Memory Space Found!");
             exit(EXIT_FAILURE);
         }
     
         newBook->bookId = bookId;
         newBook->title = title;
-        
-        newStudent->NextStudent = NULL;
+        newBook->author = author;
+        newBook->publicationYear = publicationYear;
+        newBook->nextBook = NULL;
     
-        return newStudent;
+        return newBook;
     }
