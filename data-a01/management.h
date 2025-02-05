@@ -1,9 +1,7 @@
 #pragma once
 #include <stdio.h>
 #include <string.h>
-#include <errno.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
 const int MAX_NAME_LENGTH = 100;
 

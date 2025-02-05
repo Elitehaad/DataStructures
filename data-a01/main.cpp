@@ -98,10 +98,11 @@ void viewBooks(Book* head) {
 
     // Pointer to traverse the list
     Book* current = head;
-    int count = 1;
+    int count = 0;
     printf("\nDisplaying the Library");
     // Traverse until the end of the list
     while (current != NULL) {
+        count++;
         // Print details of the current book
         printf("\nBOOK %d\n", count);
         printf("ID: %d\n", current->id);
@@ -111,7 +112,7 @@ void viewBooks(Book* head) {
 
         // Move to the next book
         current = current->next;
-        count++;
+
     }
     printf("\n%d Book(s) Registered in the Library\n", count);
 }
