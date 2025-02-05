@@ -1,42 +1,33 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include "management.h"
 
-typedef struct book {
-    int bookId;
-    char title;
-    char author;
-    int publicationYear;
-    struct book* nextBook;
-};
-struct book* addNewBook(int bookId, char title, char author, int publicationYear) 
-{
-        struct book* newBook = (struct book*)malloc(sizeof(struct book));
+int main(void) {
+    Book* head = NULL;
+    Book* tail = NULL;
+    int idd = 8976;
+    char titlee[] = "Howare";
+    char author[] = "Juan";
+    int publicationn = 7896;
+    addBook(&head, idd, titlee, author, publicationn);
+    return 0;
+}
+
+void addBook(Book** head, int id, const char* title, const char* author, int publication_year) {
     
-        if (newBook == NULL)
-        {
-            printf("No More Memory Space Found!");
-            exit(EXIT_FAILURE);
-        }
-    
-        newBook->bookId = bookId;
-        newBook->title = title;
-        newBook->author = author;
-        newBook->publicationYear = publicationYear;
-        newBook->nextBook = NULL;
-    
-        return newBook;
+    Book* newBook = (Book*)malloc(sizeof(Book));
+    if (newBook == NULL)
+    {
+        printf("Not Enough Memory!");
+        exit(EXIT_FAILURE);
     }
 
-void findBook(book* head) {
-    printf("Please enter a book title or a partial book title to search for");
-    char newText[100];
-    fgets(newText, 100, stdin);
-    while (head != NULL) {
-        for (int count = 0; count < strlen(*head->title); count++) {
-            strcmp(newText[count], head->title);
-        }
-    }
-     
-
+    newBook->id = id;
+    newBook->publication_year = publication_year;
+    strncpy_s(newBook->title, sizeof(newBook->title), title, _TRUNCATE);
+    strncpy_s(newBook->author, sizeof(newBook->author), author, _TRUNCATE);
+    newBook->next = *head;
+    *head = newBook;
 }
