@@ -9,6 +9,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{5393A8FF-75D0-4508-AE88-D84D30E88C58}|data-a01.vcxproj|C:\\Source\\DataStructures\\data-a01\\management.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5393A8FF-75D0-4508-AE88-D84D30E88C58}|data-a01.vcxproj|solutionrelative:management.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5393A8FF-75D0-4508-AE88-D84D30E88C58}|data-a01.vcxproj|C:\\PROGRAM FILES (X86)\\WINDOWS KITS\\10\\INCLUDE\\10.0.22621.0\\UCRT\\STDIO.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +21,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "stdio.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeToolTip": "..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "ViewState": "AgIAAHMJAAAAAAAAAAAAwJAJAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-05T02:51:25.485Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,7 +48,7 @@
               "RelativeDocumentMoniker": "management.h",
               "ToolTip": "C:\\Source\\DataStructures\\data-a01\\management.h",
               "RelativeToolTip": "management.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-04T22:09:01.445Z",
               "EditorCaption": ""
@@ -43,9 +59,9 @@
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Source\\DataStructures\\data-a01\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Source\\DataStructures\\data-a01\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAABLAAAAAAAAAA==",
+              "ToolTip": "C:\\Source\\DataStructures\\data-a01\\main.cpp*",
+              "RelativeToolTip": "main.cpp*",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-04T21:41:22.953Z",
               "EditorCaption": ""
