@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LibraryCatalog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LibraryCatalog.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,12 +132,15 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+<<<<<<< Updated upstream
   <ItemGroup>
     <ClCompile Include="LibraryCatalog.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LibraryCatalog.h" />
   </ItemGroup>
+=======
+>>>>>>> Stashed changes
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
